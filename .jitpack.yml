@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - ./gradlew clean build :library:publishToMavenLocal
+  - ./gradlew clean build :permissionedge:publishToMavenLocal
