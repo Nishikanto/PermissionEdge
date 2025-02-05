@@ -1,5 +1,5 @@
 jdk:
-  - openjdk18
+  - openjdk17
 
 install:
   - ./gradlew clean build :library:publishToMavenLocal
