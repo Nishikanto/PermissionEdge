@@ -3,24 +3,24 @@
 3    package="com.calyptasapps.permissionedge.test" >
 4
 5    <uses-sdk
-5-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:5:5-74
+5-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:5:15-41
+6-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:5:15-41
 7        android:targetSdkVersion="21" />
-7-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:5:42-71
+7-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:5:42-71
 8
 9    <instrumentation
-9-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:11:5-15:86
+9-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:11:5-15:86
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:11:22-76
+10-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:14:22-52
+11-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:13:22-53
+12-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:13:22-53
 13        android:label="Tests for com.calyptasapps.permissionedge.test"
-13-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:15:22-84
+13-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:15:22-84
 14        android:targetPackage="com.calyptasapps.permissionedge.test" />
-14-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:12:22-82
+14-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:12:22-82
 15
 16    <permission
 16-->[androidx.core:core:1.13.0] /Users/nishikantosarkar/.gradle/caches/8.10.2/transforms/53f2b8ac272fc4832a8325c6024ac585/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
@@ -34,14 +34,14 @@
 20-->[androidx.core:core:1.13.0] /Users/nishikantosarkar/.gradle/caches/8.10.2/transforms/53f2b8ac272fc4832a8325c6024ac585/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:7:5-9:19
+22-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:7:5-9:19
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.13.0] /Users/nishikantosarkar/.gradle/caches/8.10.2/transforms/53f2b8ac272fc4832a8325c6024ac585/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="true" >
 26        <uses-library android:name="android.test.runner" />
-26-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:8:9-60
-26-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3338968708877207347.xml:8:23-57
+26-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:8:9-60
+26-->/Volumes/Personal/Junk/PermissionEdge/permissionedge/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10736206328391003654.xml:8:23-57
 27
 28        <provider
 28-->[androidx.emoji2:emoji2:1.2.0] /Users/nishikantosarkar/.gradle/caches/8.10.2/transforms/11ceb28d4c589abd0a11ea21361a5589/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20

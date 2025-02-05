@@ -33,16 +33,16 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+}
 
-    afterEvaluate {
-        publishing {
-            publications {
-                create<MavenPublication>("release") {
-                    from(components["release"])
-                    groupId = "com.github.Nishikanto"
-                    artifactId = "PermissionEdge"
-                    version = "1.0.0"
-                }
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.Nishikanto"
+                artifactId = "PermissionEdge"
+                version = "1.0.0"
             }
         }
     }
