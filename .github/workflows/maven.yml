@@ -1,0 +1,41 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the code
+      - uses: actions/checkout@v4
+
+      # 2. Set up Java 17 (required by AGP 8.x+)
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          # Caches Gradle dependencies between builds
+          cache: gradle
+
+      # 3. Set up Android SDK
+      - name: Install Android SDK
+        uses: android-actions/setup-android@v2
+        with:
+          api-level: 35
+          # or customize to match your min/target sdk
+          build-tools: '35.0.0'
+          # or whichever tools you need
+
+      # 4. Grant execution permission for the Gradle wrapper
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
+
+      # 5. Build and run tests
+      - name: Build with Gradle
+        run: ./gradlew clean build
