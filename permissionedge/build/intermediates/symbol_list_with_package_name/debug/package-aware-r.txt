@@ -1,0 +1,8 @@
+com.calyptasapps.permissionedge
+string Cancel
+string OK
+string Open_settings
+string Request
+string default_denied_message
+string default_rationale_message
+string default_settings_message

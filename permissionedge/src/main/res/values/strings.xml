@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="Request">Request</string>
+    <string name="Cancel">Cancel</string>
+    <string name="OK">OK</string>
+    <string name="default_rationale_message">This permission is required for the app to function properly. Please grant it to continue using all features</string>
+    <string name="default_denied_message">You have denied this permission. Some features of the app may not work properly without it</string>
+    <string name="default_settings_message">This permission has been permanently denied. Please enable it in the app settings to ensure full functionality</string>
+    <string name="Open_settings">Open settings</string>
+</resources>

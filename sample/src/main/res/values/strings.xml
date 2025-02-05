@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="request_camera_permission">Request camera and notification permission</string>
+    <string name="request_audio_permission">Request audio permission</string>
+
+    <string name="camera_permission_rationale">We need your camera permission to take photos for the profile</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="camera_permission_permanently_denied">Camera permission denied permanently. Please go to Settings -> Apps -> PermissionEdge and allow camera permission</string>
+
+    <string name="audio_permission_rationale">We need your audio permission to record audio</string>
+    <string name="audio_permission_denied">Audio permission denied</string>
+    <string name="audio_permission_permanently_denied">Audio permission denied permanently. Please go to Settings -> Apps -> PermissionEdge and allow audio permission</string>
+
+    <string name="read_contact_permission_rationale">We need your read contact permission to get contact information</string>
+    <string name="read_contact_permission_denied">Read contact permission denied</string>
+    <string name="read_contact_permission_permanently_denied">Read contact permission denied permanently. Please go to Settings -> Apps -> PermissionEdge and allow read contact permission</string>
+    "
+</resources>
