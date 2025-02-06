@@ -26,7 +26,7 @@ repositories {
 
 ```groovy
 dependencies {
-    implementation 'com.github.Nishikanto:PermissionEdge:v1.0.0'
+    implementation 'com.github.Nishikanto:PermissionEdge:v1.0.4'
 }
 ```
 
