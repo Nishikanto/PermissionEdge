@@ -11,7 +11,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.calyptasapps.permissionedge.PermissionConfig
-import com.calyptasapps.permissionedge.PermissionManager
+import com.calyptasapps.permissionedge.PermissionEdge
 
 /**
  * MainActivity is the main entry point for the application.
@@ -21,14 +21,14 @@ import com.calyptasapps.permissionedge.PermissionManager
  */
 class MainActivity : AppCompatActivity() {
     // Initialize the PermissionManager to handle permission requests
-    private lateinit var permissionManager: PermissionManager
+    private lateinit var permissionEdge: PermissionEdge
 
     // Override the onCreate method to initialize the activity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         // Initialize PermissionManager
-        permissionManager = PermissionManager(this)
+        permissionEdge = PermissionEdge(this)
 
         setContent {
             MaterialTheme {
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             )
         )
 
-        permissionManager.requestPermissions(permissionConfigs) {
+        permissionEdge.requestPermissions(permissionConfigs) {
             // Callback when permissions are granted
             showToast("All permissions granted")
         }
@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
             permanentlyDeniedMessage = getString(R.string.audio_permission_permanently_denied)
         )
 
-        permissionManager.requestPermissions(listOf(audioPermissionConfig)) {
+        permissionEdge.requestPermissions(listOf(audioPermissionConfig)) {
             // Callback when audio permission is granted
             showToast("Audio permission granted")
         }
